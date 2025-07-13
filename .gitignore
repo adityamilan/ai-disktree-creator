@@ -1,0 +1,41 @@
+# Custom work folder
+.xwork/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code settings
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Dist or build output (optional)
+dist/
+out/
+build/
+
+# Optional: Ignore environment files (if used)
+.env
+.env.local
+.env.*.local
+
+# Ignore coverage reports (if using testing tools like nyc/jest)
+coverage/
+
+# Ignore lock files if you're not committing them (but usually you should)
+# package-lock.json
+# yarn.lock
+
+# Ignore TypeScript cache (if any)
+*.tsbuildinfo
+
+# Ignore extension packaged files
+*.vsix

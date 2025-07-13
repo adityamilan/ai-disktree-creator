@@ -1,0 +1,21 @@
+erp-analyzer/
+│
+├── README.md
+├── package.json
+├── app.js
+│
+├── /src/
+│   ├── db.js
+│   ├── sessionManager.js
+│   ├── analytics.js
+│   │
+│   ├── routes/
+│   │   ├── sessionRoutes.js
+│   │   ├── chatRoutes.js
+│   │   ├── loginRoutes.js    # New route for HTML QR display
+│   │   └── analyticsRoutes.js
+│   │
+│   └── middleware/
+│       └── authMiddleware.js
+│
+└── /sessions/        # Will be auto-created at runtime
