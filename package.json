@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "author": "Aditya Milan <aditya@milansoft.com>",
   "license": "MIT",
-  "icon": "assets/ai-disk-tree-creator-logo-03.png",
+  "icon": "assets/ai-disk-tree-creator-logo-128x128.png",
   "publisher": "AdityaMilan",
   "preview": true,
   "keywords": ["folder structure", "tree structure", "create tree", "project scaffold", "vs code", "AI code", "AI project"],
