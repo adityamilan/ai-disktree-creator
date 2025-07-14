@@ -21,18 +21,21 @@ Have a suggestion or feature idea?
 ## 🙋 Frequently Asked Questions
 
 **Q: Does it support JSON or YAML inputs?**  
-*A: Not yet — currently, it only supports visual tree structures.*
+*A: Not yet! currently, it only supports visual tree structures in flexible formats.*
 
 **Q: Can I use this with multiple files at once?**  
-*A: Not at the moment. One structure file at a time is recommended.*
+*A: You can paste multiple tree structures in a single file or you can run it one by one for each file. It operates on current active editor window.*
 
 **Q: Will it overwrite existing files?**  
-*A: No. It only creates missing folders and blank files — existing content is untouched.*
+*A: No. It only creates missing folders and blank files, existing content is untouched.*
+
+**Q: Will this tool validates the tree structure?**
+*No it starts processing the file line by line, and will create the valid files until it encounter some error.*
 
 ---
 
 ## 🧑‍💻 Contact
-For urgent issues or private discussions, feel free to email the maintainer:  
+You can contact github repository issues page for reporting any bug or suggestions. For urgent issues or private discussions, feel free to email the maintainer:  
 📧 `support@milansoft.com`
 
 ---
