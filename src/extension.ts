@@ -91,7 +91,8 @@ async function parseAndGenerate(treeText: string, basePath: string): Promise<str
             cleanedLine = cleanedLine.substring(0, commentIndex).trimEnd(); // Trim after comment removal
         }
 
-        cleanedLine = cleanedLine.replace(/[│├─└]/g, ' ');
+        cleanedLine = cleanedLine.replace(/[\u{1F4C1}-\u{1F4C4}]\s?/gu, '');
+        cleanedLine = cleanedLine.replace(/[│├─└|]/g, ' ');
         //commentary += `Replaced graphical characters. `;
         cleanedLine = cleanedLine.trimEnd();
 
