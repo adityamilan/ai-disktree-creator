@@ -29,7 +29,7 @@ Have a suggestion or feature idea?
 **Q: Will it overwrite existing files?**  
 *A: No. It only creates missing folders and blank files, existing content is untouched.*
 
-**Q: Will this tool validates the tree structure?**
+**Q: Will this tool validates the tree structure?**  
 *A: No it starts processing the file line by line, and will create the valid files until it encounter some error.*
 
 ---
