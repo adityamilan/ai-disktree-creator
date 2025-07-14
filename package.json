@@ -3,6 +3,7 @@
   "displayName": "AI DiskTree Creator (AI Scaffold Builder)",
   "description": "Speed up your workflow by instantly creating full folder and file structures in VS Code from AI-generated or manually written directory trees. Just paste your tree into a text file and let this extension convert it into real folders and files in seconds.",
   "version": "0.0.1",
+  "author": "Aditya Milan <aditya@milansoft.com>",
   "icon": "assets/ai-disk-tree-creator-logo-03.png",
   "publisher": "AdityaMilan",
   "preview": true,
@@ -33,6 +34,10 @@
         }
       ]
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adityamilan/ai-disktree-creator.git"
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

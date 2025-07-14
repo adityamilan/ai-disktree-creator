@@ -1,3 +1,5 @@
+# This is a sample tree structure that you can use to test if you already dont have analytics
+# AI DiskTree Creator understands hash comments and nested folders
 erp-analyzer/
 │
 ├── README.md
