@@ -96,6 +96,10 @@ async function parseAndGenerate(treeText: string, basePath: string): Promise<str
         //commentary += `Replaced graphical characters. `;
         cleanedLine = cleanedLine.trimEnd();
 
+        // remove comments insuide brackets
+        cleanedLine = cleanedLine.replace(/\s*\([^)]*\)\s*$/g, '');
+        //commentary += `Removed bracketed comments. `;
+
         const leadingSpaces = cleanedLine.length - cleanedLine.trimStart().length;
         const depth = leadingSpaces / 4;
         //commentary += `Line depth as ${depth}. `;
